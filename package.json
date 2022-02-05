@@ -1,0 +1,27 @@
+{
+  "name": "milosys",
+  "version": "1.0.0",
+  "description": "Files for Milosys website",
+  "main": "index.js",
+  "scripts": {
+    "build:index": "./build/index.js",
+    "build:front:dev": "rm -r dist/front/* && ./build/front.js dev",
+    "build:front": "rm -r dist/front/* && ./build/front.js",
+    "deploy:front": "aws s3 cp ./dist/front/ s3://$BUCKET/ --recursive",
+    "build:layer": "./build/layer.sh sendEmail",
+    "build:function": "cp -r src/back/* dist/back/functions/sendEmail/",
+    "build:back": "npm run build:function && npm run build:layer"
+  },
+  "author": "Curt Commander",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.0",
+    "aws-sdk": "^2.1068.0",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "csso": "^5.0.2",
+    "html-minifier": "^4.0.0",
+    "uglify-js": "^3.15.0"
+  }
+}

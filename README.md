@@ -1,0 +1,2 @@
+# Website for Milosys
+Milosys is a technology company that delivers cloud solutions and custom websites. This repository contains the files for Milosys' initial website. The frontend was built by modifying an HTML template named [PHLY](https://themeforest.net/item/phly-versatile-coming-soon-template/13117735). The backend is hosted on AWS and is completely serverless (CloudFront, S3, API Gateway, and Lambda).

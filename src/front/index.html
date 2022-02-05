@@ -1,0 +1,230 @@
+<!--
+* PHLY - Versatile Coming Soon Template
+* Build Date: October 2015
+* Last Update: October 2018
+* Author: Madeon08
+* Copyright (C) 20XX Madeon08
+* This is a premium product available exclusively here : https://themeforest.net/user/Madeon08/portfolio
+* -->
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+
+	<head>
+		<meta charset="utf-8">
+        <title>Milosys</title>
+        <meta name="description" content="Milosys is a technology company that delivers cloud solutions and custom websites. The principal technologies it utilizes to do so are AWS and JavaScript.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ================= Favicon ================== -->
+        <!-- Standard -->
+        <link rel="shortcut icon" href="img/clouds-240.png">
+        <!-- Retina iPad Touch Icon-->
+        <link rel="apple-touch-icon" sizes="120x120" href="img/clouds-120.png">
+        <!-- Retina iPhone Touch Icon-->
+        <link rel="apple-touch-icon" sizes="72x72" href="img/clouds-72.png">
+        <!-- Standard iPad Touch Icon--> 
+        <link rel="apple-touch-icon" sizes="64x64" href="img/clouds-64.png">
+        
+        <!-- ============== Resources style ============== -->
+        <link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Montserrat:400,700" />
+
+		<!-- Modernizr runs quickly on page load to detect features -->
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	
+	<body>
+
+		<!-- Page preloader -->
+		<div id="loading">
+			<div id="preloader">
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+
+		<!-- Overlay and Star effect -->
+		<div class="global-overlay">
+			<div class="overlay skew-part"></div>
+		</div>
+
+		<!-- START - Home/Left Part -->
+		<section id="left-side">
+
+			<!-- Your logo -->
+			<img src="img/logo-milosys.png" alt="" class="brand-logo" />
+
+			<div class="content">
+
+				<h1 class="text-intro opacity-0">Milosys, LLC</h1>
+
+				<h2 class="text-intro opacity-0">A technology company delivering cloud solutions and custom websites</h2>
+
+				<nav>
+					<ul>
+						<li>
+							<a href="#" id="open-more-info" data-target="right-side" class="light-btn text-intro opacity-0">More Information</a>
+						</li>
+						<!--
+						<li>
+							<a data-dialog="somedialog" class="action-btn trigger text-intro opacity-0">Notify Me!</a>
+						</li>
+						-->
+					</ul>
+				</nav>
+
+			</div>
+
+			<!-- Social icons -->
+			<!--
+			<div class="social-icons">
+
+				<a href="#"><i class="fab fa-facebook-f"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-linkedin"></i></a>
+
+			</div>
+			-->
+
+		</section>
+		<!-- END - Home/Left Part -->
+
+		<!-- Cloud animation -->
+		<div id="cloud-animation">
+
+	        <img src="img/cloud-01.png" alt="" id="cloud1">
+	        <img src="img/cloud-02.png" alt="" id="cloud2">
+	        <img src="img/cloud-03.png" alt="" id="cloud3">
+	        <img src="img/cloud-04.png" alt="" id="cloud4">
+
+	    </div>
+
+		<!-- START - More Information/Right Part -->
+		<section id="right-side" class="hide-right">
+
+			<div class="content">
+
+				<h3>About</h3>
+
+				<p>We specialize in AWS and JavaScript. We have experience using these technologies to build custom websites, automate business processes, and develop data collection and reporting systems.
+					Previous projects we've worked on include backend automation for a startup's language-learning platform, a data collection and reporting system for a microloan nonprofit, and web scraping and data visualizations for NBA sports betting.
+					Of course, by no means do our past projects limit what we can do.
+					AWS + JS = Build anything!</p>
+
+				<!--<br><br>-->
+
+				<span class="separator"></span>
+
+				<h3>Contact</h3>
+				
+				<p>Have a project in mind or just want to know more about the services we offer?
+					Please reach out to us. Together we could reach superatmospheric heights! &#x1F680;</p>
+
+                <!-- START - Contact Form -->
+            	<form id="contact-form" name="contact-form" method="POST" data-name="Contact Form">
+
+            		<div class="row">
+
+                        <!-- Full name -->
+                        <div class="col-12 col-lg-6">
+                            <div class="form-group">
+                                <input type="text" id="name" class="form form-control" placeholder="Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Name'" name="name" data-name="Name" required>
+                            </div>
+                        </div>
+
+                        <!-- E-mail -->
+                        <div class="col-12 col-lg-6">
+                            <div class="form-group">
+                                <input type="email" id="email" class="form form-control" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'" name="email-address" data-name="Email Address" required>
+                            </div>
+                        </div>
+
+                        <!-- Subject -->
+                        <div class="col-xs-12 col-sm-12 col-lg-12">
+                            <div class="form-group">
+                                <input type="text" id="subject" class="form form-control" placeholder="Subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Subject'" name="subject" data-name="Subject">
+                            </div>
+                        </div>
+
+                        <!-- Message -->
+                        <div class="col-xs-12 col-sm-12 col-lg-12 no-padding">
+                            <div class="form-group">
+                                <textarea id="text-area" class="form textarea form-control" placeholder="Message (20 characters min)" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message (20 characters min)'" name="message" data-name="Text Area" required></textarea>
+                            </div>
+                        </div>
+
+                    </div>
+
+                	<!-- Button submit -->
+                	<button type="submit" id="valid-form" class="btn btn-color">Send Message</button>
+    
+                </form>
+                <!-- END - Contact Form -->
+	            
+	            <!-- Answer for the contact form is displayed in the next div, do not remove it. -->       
+                <div id="block-answer">
+
+					<div id="answer"></div>
+
+				</div>
+
+				<div class="info-contact row">
+
+                    <div class="col-xs-12 col-sm-4 col-lg-4 item-map mx-auto">
+						<div class="contact-item"><ion-icon name="mail"></ion-icon>
+                            <p><a href="mailto:contact@milosys.com">contact@milosys.com</a></p>
+                        </div>
+                    </div>
+
+                </div>
+
+			</div>
+			<!-- /. Content -->
+
+			<footer>
+
+				<p>© 2022 Milosys, LLC</p>
+
+			</footer>
+
+		</section>
+		<!-- START - More Information/Right Part -->
+
+		<!-- Button Cross to close the More Information/Right Part -->
+		<button id="close-more-info" class="hide-close"><i class="fas fa-times"></i></button>
+
+		<!-- ///////////////////\\\\\\\\\\\\\\\\\\\ -->
+		<!-- ********** Resources jQuery ********** -->
+		<!-- \\\\\\\\\\\\\\\\\\\/////////////////// -->
+		
+		<!-- * Libraries jQuery, Easing and Bootstrap - Be careful to not remove them * -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.easings.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+		<!-- Accelerated JavaScript animation JS file -->
+		<script src="js/velocity.min.js"></script> 
+
+		<!-- Accelerated JavaScript animation UI JS file -->
+		<script src="js/velocity.ui.min.js"></script>  
+
+		<!-- Contact form plugin -->
+		<script src="js/contact.js"></script>
+
+		<!-- Slideshow/Image plugin -->
+		<script src="js/vegas.js"></script>
+
+		<!-- Custom Scrollbar plugin -->
+		<script src="js/jquery.mCustomScrollbar.js"></script>
+
+		<!-- Main JS File -->
+		<script src="js/main.js"></script>
+		
+		<!-- Ion icons -->
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+	</body>
+
+</html>

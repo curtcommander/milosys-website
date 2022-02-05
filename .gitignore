@@ -1,0 +1,6 @@
+dist/
+misc/
+node_modules/
+
+notes.txt
+test.js
